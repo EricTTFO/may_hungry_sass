@@ -1,0 +1,140 @@
+html,
+body,
+form,
+p,
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 500px;
+  background-color: #008de1;
+  background-size: cover;
+}
+.container .main {
+  font-size: 14px;
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.container .main nav {
+  color: #fff;
+  line-height: 45px;
+  padding-top: 15px;
+}
+.container .main nav h1 {
+  float: left;
+}
+.container .main nav img {
+  width: 130px;
+}
+.container .main nav .right-nav {
+  float: right;
+  word-spacing: 0.4em;
+}
+.container .main nav .btn-green {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5db423;
+  padding: 7px 14px;
+  font-size: 12px;
+  line-height: 1;
+  margin-left: 10px;
+}
+.container .main .main-content {
+  position: relative;
+  top: 30%;
+}
+.container .main .main-content .content-logo {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 53px;
+}
+.container .main .main-content img {
+  width: 280px;
+}
+.container .main .main-content .search {
+  line-height: 56px;
+  margin: 0 auto;
+  width: 50%;
+}
+.container .main .main-content .search-city {
+  float: left;
+  width: 100px;
+}
+.container .main .main-content .city {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  height: 58px;
+  font-size: 20px;
+  color: #333;
+}
+.container .main .main-content .city:after {
+  display: inline-block;
+  position: absolute;
+  top: 45px;
+  right: 13px;
+  margin-left: 5px;
+  vertical-align: middle;
+  content: "";
+  border-top: 5px solid #999;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.container .main .main-content .search-input {
+  float: left;
+  width: 70%;
+  position: relative;
+}
+.container .main .main-content .search-input:before {
+  position: absolute;
+  top: 13px;
+  height: 30px;
+  border-left: 1px solid #dcdcdc;
+}
+.container .main .main-content .search-input .search-form {
+  height: 56px;
+  background-color: #fff;
+}
+.container .main .main-content .search-input input {
+  height: 100%;
+  border: none;
+  padding-left: 16px;
+  width: 100%;
+  font-size: 16px;
+}
+.container .main .main-content .search-input .btn-red {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #f74342;
+  margin-top: 1px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 58px;
+  position: absolute;
+  width: 128px;
+  top: 0;
+  right: -158px;
+}
+
+/*# sourceMappingURL=index.css.map */
