@@ -1,0 +1,36 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@mixin btn-common ($style, $radius:2px) {
+    display: inline-block;
+    border: none;
+    border-radius: $radius;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+
+    @if $style==green {
+        background-color: $green;
+        padding: 7px 14px;
+        font-size: 12px;
+        line-height: 1;
+        margin-left: 10px;
+    }
+
+    @else if $style==red {
+        background-color: $red;
+        margin-top: 1px;
+        padding: 0;
+        font-size: 20px;
+        line-height: 58px;
+        position: absolute;
+        width: 128px;
+        top: 0;
+        right: -158px;
+    }
+}
+
+.footer-display {
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,304 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 33, ../sass/print.scss */
+.footer-display, .container .footer .footer-app .footer-app-image, .container .footer .footer-app .footer-app-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 15, ../sass/screen.scss */
+.container {
+  height: 500px;
+  background-color: #008de1;
+  background-size: cover;
+}
+/* line 21, ../sass/screen.scss */
+.container .main {
+  font-size: 14px;
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+/* line 28, ../sass/screen.scss */
+.container .main nav {
+  color: #fff;
+  line-height: 45px;
+  padding-top: 15px;
+}
+/* line 33, ../sass/screen.scss */
+.container .main nav h1 {
+  float: left;
+}
+/* line 37, ../sass/screen.scss */
+.container .main nav img {
+  width: 130px;
+}
+/* line 41, ../sass/screen.scss */
+.container .main nav .right-nav {
+  float: right;
+  word-spacing: .4em;
+}
+/* line 46, ../sass/screen.scss */
+.container .main nav .btn-green {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5db423;
+  padding: 7px 14px;
+  font-size: 12px;
+  line-height: 1;
+  margin-left: 10px;
+}
+/* line 51, ../sass/screen.scss */
+.container .main .main-content {
+  position: relative;
+  top: 30%;
+}
+/* line 55, ../sass/screen.scss */
+.container .main .main-content .content-logo {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 53px;
+}
+/* line 62, ../sass/screen.scss */
+.container .main .main-content img {
+  width: 280px;
+}
+/* line 66, ../sass/screen.scss */
+.container .main .main-content .search {
+  line-height: 56px;
+  margin: 0 auto;
+  width: 50%;
+}
+/* line 72, ../sass/screen.scss */
+.container .main .main-content .search-city {
+  float: left;
+  width: 100px;
+}
+/* line 78, ../sass/screen.scss */
+.container .main .main-content .city {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  height: 58px;
+  font-size: 20px;
+  color: #333;
+}
+/* line 87, ../sass/screen.scss */
+.container .main .main-content .city:after {
+  display: inline-block;
+  position: absolute;
+  top: 45px;
+  right: 13px;
+  margin-left: 5px;
+  vertical-align: middle;
+  content: "";
+  border-top: 5px solid #999;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+/* line 101, ../sass/screen.scss */
+.container .main .main-content .search-input {
+  float: left;
+  width: 70%;
+  position: relative;
+}
+/* line 106, ../sass/screen.scss */
+.container .main .main-content .search-input:before {
+  position: absolute;
+  top: 13px;
+  height: 30px;
+  border-left: 1px solid #dcdcdc;
+}
+/* line 114, ../sass/screen.scss */
+.container .main .main-content .search-input .search-form {
+  height: 56px;
+  background-color: #fff;
+  outline: none;
+}
+/* line 120, ../sass/screen.scss */
+.container .main .main-content .search-input input {
+  height: 100%;
+  border: none;
+  padding-left: 16px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+/* line 129, ../sass/screen.scss */
+.container .main .main-content .search-input .btn-red {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #f74342;
+  margin-top: 1px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 58px;
+  position: absolute;
+  width: 128px;
+  top: 0;
+  right: -158px;
+}
+/* line 136, ../sass/screen.scss */
+.container .footer {
+  top: 60%;
+  text-align: center;
+}
+/* line 140, ../sass/screen.scss */
+.container .footer .footer-app {
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  text-align: left;
+}
+/* line 146, ../sass/screen.scss */
+.container .footer .footer-app .footer-app-image {
+  position: relative;
+  border: 1px solid #ddd;
+  width: 130px;
+  padding: 15px;
+}
+/* line 153, ../sass/screen.scss */
+.container .footer .footer-app .footer-app-image img {
+  width: 100%;
+}
+/* line 157, ../sass/screen.scss */
+.container .footer .footer-app .footer-app-image span {
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  right: 25px;
+  text-align: center;
+  background-color: #fff;
+  color: #999;
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+/* line 170, ../sass/screen.scss */
+.container .footer .footer-app .footer-app-text {
+  margin-left: 20px;
+  font-size: 16px;
+}
+/* line 177, ../sass/screen.scss */
+.container .footer .footer-app .footer-app-text .color-red {
+  font-size: 30px;
+  color: #f74342;
+}
+/* line 184, ../sass/screen.scss */
+.container .footer .footer-link {
+  color: #666;
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+/* line 190, ../sass/screen.scss */
+.container .footer .footer-link a {
+  display: inline;
+  padding: 0 7px;
+  color: inherit;
+  border-left: 1px solid #ccc;
+}
+/* line 196, ../sass/screen.scss */
+.container .footer .footer-link a:first-child {
+  border-left: 0;
+}
+/* line 202, ../sass/screen.scss */
+.container .footer .footer-copyright {
+  font-size: 12px;
+  color: #999;
+}
+/* line 206, ../sass/screen.scss */
+.container .footer .footer-copyright a {
+  color: inherit;
+}
+
+/* line 213, ../sass/screen.scss */
+.footer-display, .container .footer .footer-app .footer-app-image, .container .footer .footer-app .footer-app-text {
+  display: inline-block;
+  vertical-align: middle;
+}

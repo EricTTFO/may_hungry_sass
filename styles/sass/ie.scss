@@ -1,0 +1,30 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+@import './core/variables.scss';
+@import './core/animation.scss';
+@import './core/media-queries.scss';
+@import './core/mixin.scss';
+@import './core/reset.scss';
+@import './core/line-list.scss';
+@import './ext/icons-paint/cross';
+// 特殊化class
+.list--setting{
+    .item-icon{
+        width: 30px;
+        height: 30px;
+    }
+    // 特殊化左右为15px，默认为10px
+    .line-item{
+        padding-left: 15px;
+        padding-right: 15px;
+        &::before{
+            left: 60px;
+        }
+        .icon-v-right{
+            width: 40px;
+        }
+    }
+}
